@@ -1,0 +1,58 @@
+/* 页脚文字样式 */
+.attribution {
+    font-size: 11px; /* 设置字体大小 */
+    text-align: center; /* 文本居中 */
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%); /* 设置链接文字颜色 */
+    text-decoration: none; /* 移除下划线 */
+  }
+  
+  /* 设置全局样式 */
+  body {
+    background-color: hsl(212, 45%, 89%); /* 背景颜色 */
+    font-size: 15px; /* 全局字体大小 */
+    font-family: 'Outfit', sans-serif; /* 全局字体 */
+    display: flex; /* 使用 flex 布局 */
+    flex-direction: column; /* 子元素垂直排列 */
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    height: 100vh; /* 设置页面高度 */
+    margin: 0; /* 移除默认外边距 */
+  }
+  
+  /* 卡片容器样式 */
+  .card {
+    background-color: hsl(0, 0%, 100%); /* 背景颜色为白色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    border-radius: 10px; /* 圆角半径 */
+    max-width: 17rem; /* 最大宽度 */
+    padding: 1.5rem; /* 内边距 */
+    text-align: center; /* 文本居中 */
+    margin-bottom: 1rem; /* 底部外边距 */
+  }
+  
+  /* 图片样式 */
+  .qr-code {
+    width: 100%; /* 图片宽度占满容器 */
+    border-radius: 10px; /* 图片圆角 */
+  }
+  
+  /* 标题样式 */
+  h1 {
+    font-size: 1.375rem; /* 字体大小 */
+    font-weight: 700; /* 字体加粗 */
+    color: hsl(218, 44%, 22%); /* 字体颜色 */
+    margin: 1rem 0; /* 上下外边距 */
+  }
+  
+  /* 段落文字样式 */
+  p {
+    font-size: 0.94rem; /* 字体大小 */
+    font-weight: 400; /* 正常字体粗细 */
+    color: hsl(220, 15%, 55%); /* 字体颜色 */
+    margin: 0.5rem 0; /* 上下外边距 */
+    line-height: 1.5; /* 行高 */
+  }
+  
